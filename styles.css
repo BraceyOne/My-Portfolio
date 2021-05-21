@@ -52,12 +52,12 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: white;
 }
 
 header {
   text-align: center;
-  background: url('images/Peace-Bridge-nomark.jpg') no-repeat top center ;
+  background: url('images/calgary-skyline-panorama.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -94,12 +94,28 @@ header .profile-image:hover {
   max-width: 500px;
   text-align: left;
   background: #fff;
-  border-bottom: 4px solid #ccc;
+  border-bottom: 4px solid #222;
   border-radius: 6px;
   transition: all .5s;
 }
+
 .card:hover {
-  border-color: #2e4174;
+  border-color:  rgb(240, 238, 163);
+}
+
+.card-experiences {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 400px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #222;
+  border-radius: 6px;
+  transition: all .5s;
+}
+
+.card-experiences:hover {
+  border-color:rgb(240, 238, 163);
 }
 
 .background-text {
@@ -109,6 +125,7 @@ header .profile-image:hover {
 
 .goals-text {
   font-family: garamond;
+  font-size: large;
 }
 
 .experience-text {
@@ -123,14 +140,15 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
-  color: white;
+  background: rgb(240, 238, 163);
+  color: #222;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #222;
+  color: white;
 }
 
 footer {
